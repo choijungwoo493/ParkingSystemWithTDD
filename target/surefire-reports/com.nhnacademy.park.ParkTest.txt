@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.nhnacademy.park.ParkTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.nhnacademy.park.ParkTest
+unParkingCarTest  Time elapsed: 0.007 s  <<< ERROR!
+com.nhnacademy.park.NoParkingSpaceException: 주차장에 남은 자리가 없습니다
+	at com.nhnacademy.park.ParkTest.unParkingCarTest(ParkTest.java:74)
+
+findSpaceFailTest  Time elapsed: 0.001 s  <<< ERROR!
+com.nhnacademy.park.NoParkingSpaceException: 주차장에 남은 자리가 없습니다
+	at com.nhnacademy.park.ParkTest.findSpaceFailTest(ParkTest.java:49)
+
+setCarInTimeAndOutTimeTest  Time elapsed: 0.002 s  <<< ERROR!
+com.nhnacademy.park.NoParkingSpaceException: 주차장에 남은 자리가 없습니다
+	at com.nhnacademy.park.ParkTest.setCarInTimeAndOutTimeTest(ParkTest.java:86)
+
+findSpaceSuccessTest  Time elapsed: 0.001 s  <<< ERROR!
+com.nhnacademy.park.NoParkingSpaceException: 주차장에 남은 자리가 없습니다
+	at com.nhnacademy.park.ParkTest.findSpaceSuccessTest(ParkTest.java:43)
+
+parkingCarTest2  Time elapsed: 0.001 s  <<< ERROR!
+com.nhnacademy.park.NoParkingSpaceException: 주차장에 남은 자리가 없습니다
+	at com.nhnacademy.park.ParkTest.parkingCarTest2(ParkTest.java:65)
+
